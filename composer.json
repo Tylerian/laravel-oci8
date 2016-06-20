@@ -9,11 +9,15 @@
             "email": "aqangeles@gmail.com"
         }
     ],
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/Tylerian/pdo-via-oci8"
+    }],
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "5.2.*",
         "illuminate/database": "5.2.*",
-        "yajra/laravel-pdo-via-oci8": "1.*"
+        "yajra/laravel-pdo-via-oci8": "dev-1.*"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",
